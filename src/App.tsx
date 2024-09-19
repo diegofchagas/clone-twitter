@@ -1,5 +1,11 @@
+import { Header } from "./components/Header";
+
 function App() {
-  return <>Jesus é o caminho a verdade e a vida</>;
+  return (
+    <>
+      <Header titulo="Twitter" />
+    </>
+  );
 }
 
 export default App;
