@@ -62,7 +62,7 @@ export const Sidebar = () => {
       </NavBar>
 
       <TweetButton>
-      <Feather size={32} />
+      <Feather size={24}weight="fill" />
         <span>Tweet</span>
       </TweetButton>
     </Aside>
