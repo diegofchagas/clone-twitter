@@ -15,7 +15,9 @@ import { Aside, NavBar, TweetButton } from "./style";
 export const Sidebar = () => {
   return (
     <Aside>
-      <span><TwitterLogo size={32}/></span>
+      <span>
+        <TwitterLogo size={32} />
+      </span>
       <NavBar>
         <ul>
           <li>
@@ -62,7 +64,7 @@ export const Sidebar = () => {
       </NavBar>
 
       <TweetButton>
-      <Feather size={24}weight="fill" />
+        <Feather size={24} weight="fill" />
         <span>Tweet</span>
       </TweetButton>
     </Aside>
