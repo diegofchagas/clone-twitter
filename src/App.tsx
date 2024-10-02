@@ -1,14 +1,16 @@
-import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
 import { Tweet } from "./components/Tweet";
+import { Home } from "./pages/Home";
 
 function App() {
   return (
-    <>
-      {/* <Header titulo="Twitter" />
-      <Sidebar/> */}
-      <Tweet/>
-    </>
+    <main>
+      <Sidebar />
+      <Home />
+      <div>
+        <Tweet />
+      </div>
+    </main>
   );
 }
 
