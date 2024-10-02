@@ -14,9 +14,8 @@ export const Tweet = ({ content }: { content: string }) => {
           <strong>Diego Chagas</strong>
           <span>@diegofchagas</span>
         </div>
-      </TweetContent>
-
-      <p>{content} Teste de conteudo</p>
+    
+      <p> Teste de conteudo</p>
 
       <TweetFooter>
         <FooterButton>
@@ -33,6 +32,7 @@ export const Tweet = ({ content }: { content: string }) => {
           10 <Heart  size={16}/>
         </FooterButton>
       </TweetFooter>
+      </TweetContent>
     </TweetContainer>
   );
 };

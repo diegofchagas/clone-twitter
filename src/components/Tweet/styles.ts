@@ -33,6 +33,8 @@ export const TweetContent = styled.div`
   }
 
   p{
+    padding-top:.500rem;
+    font-size:.875rem;
     line-height:125%;
   }
   `;
