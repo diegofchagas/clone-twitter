@@ -22,7 +22,7 @@ export const Form = styled.form`
   textarea{
     flex:1;
     resize:none;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 500;
     margin-top: 0.75rem;
     resize: none;

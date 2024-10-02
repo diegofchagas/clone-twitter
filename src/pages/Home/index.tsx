@@ -7,13 +7,13 @@ export const Home = () => {
     <div>
       <Header titulo="Para você" />
       <Form>
+        <label htmlFor="">
         <img src="https://github.com/diegofchagas.png" alt="Diego Chagas" />
-        <label htmlFor=""></label>
         <textarea placeholder="O que está acontecendo?" />
+        </label>
         <TweetButton type="submit">tweet</TweetButton>
       </Form>
       
-
       <Tweet/>
     </div>
   );
