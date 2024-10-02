@@ -26,5 +26,10 @@ export const GlobalStyle = createGlobalStyle`
     display:grid;
     grid-template-columns: 300px 1fr;
   }
+
+  .content{
+    border-left:1px solid #1F2937;
+    border-right: 1px solid #1F2937;
+  }
 `;
 

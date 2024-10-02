@@ -16,7 +16,7 @@ export const Tweet = ({ content }: { content: string }) => {
         </div>
       </TweetContent>
 
-      <p>{content}</p>
+      <p>{content} Teste de conteudo</p>
 
       <TweetFooter>
         <FooterButton>

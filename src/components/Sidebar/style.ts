@@ -30,10 +30,12 @@ export const NavBar = styled.nav`
     font-size: 1.25rem;
     line-height: 140%;
     cursor: pointer;
+    padding: 0.5rem;
   }
 
   li a:hover {
     background-color: #4b5563;
+    border-radius: 50px;
   }
 
   @media (max-width: 780px) {
@@ -55,6 +57,11 @@ export const TweetButton = styled.button`
   line-height: 140%;
   border: none;
   cursor: pointer;
+
+
+  &:hover{
+    filter: brightness(0.9);
+  }
 
   svg {
     display: none;

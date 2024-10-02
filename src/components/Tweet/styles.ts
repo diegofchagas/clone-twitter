@@ -5,7 +5,9 @@ export const TweetContainer = styled.div`
   display:grid;
   grid-template-columns: 3rem 1fr;
   gap:0.75rem;
+  border-top:1px solid #1F2937;
   border-bottom: 1px solid #1F2937;
+  
 
   img{
     width:3rem;

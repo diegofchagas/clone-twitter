@@ -16,7 +16,7 @@ export const Sidebar = () => {
   return (
     <Aside>
       <span>
-        <TwitterLogo size={32} />
+        <TwitterLogo size={32}  weight="fill"/>
       </span>
       <NavBar>
         <ul>

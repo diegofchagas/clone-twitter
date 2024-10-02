@@ -1,10 +1,13 @@
+import { XLogo } from "@phosphor-icons/react";
+import { HeaderContainer } from "./style";
 
 
 
 export const Header = ({ titulo }: { titulo: string }) => {
   return (
-    <div>
+    <HeaderContainer>
       <h3>{titulo}</h3>
-    </div>
+      <XLogo size={24} />
+    </HeaderContainer>
   );
 };
