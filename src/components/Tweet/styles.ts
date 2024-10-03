@@ -47,8 +47,7 @@ export const TweetFooter = styled.div`
   margin-top:0.75rem;
 `;
 
-
-export const FooterButton = styled.button`
+export const FooterButton = styled.button` 
   display:flex;
   align-items:center;
   gap:0.5rem;
@@ -56,8 +55,12 @@ export const FooterButton = styled.button`
   border:none;
   font-size:.875rem;
   font-size:.875rem;
-  color: #9ca3af;
+  color:#9ca3af;
   cursor: pointer;
+
+  &.color{
+    color:#93c5fd;
+  }
   
   &:hover{
     color:#93c5fd;
